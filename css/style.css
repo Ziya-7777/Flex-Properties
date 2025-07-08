@@ -6,71 +6,148 @@
 
 .container{
     max-width: 1320px;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .main{
-    background-color:rgb(105, 102, 102);
-    color: white;
-    height: 400px;
-    margin-top: 30px;
+    margin-top: 20px;
+    height: 600px;
+    background-color:  #565454;
+    color: #fff;
+    padding: 20px;
     
-   
 }
 
 .main h2{
     text-align: center;
-   
+}
+
+.main p{
+    padding: 20px 0;
 }
 
 .box{
-    background-color: yellowgreen;
-   height: 150px;
-    color:black;
+    height: 250px;
+    background-color: #ffff6f;
     display: flex;
-    margin: 1rem
 }
 
 .box1{
-    background-color: bisque;
-    width: 50px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
+    background-color: #FAD6A5;
     text-align: center;
-    color: black;
-  
+    line-height: 60px;
 }
 
 .main nav ul{
     padding: 10px 20px;
 }
 
-.wrap{
+.box-1{
+    height: 200px;
+    background-color:#ffff6f;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 1rem;
+}
+
+.box-2{
+    height: 250px;
+    background-color: #ffff6f;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellowgreen;
-    color: black;
     margin: 1rem;
+}
+
+.box-3{
     height: 250px;
-}
-
-.nowrap h2{
+    background-color: #ffff6f;
+    display: flex;
+    flex-wrap: wrap-reverse;
     margin: 1rem;
 }
 
-.nowrap ul li{
-    margin: 1.5rem;
-}
-.box2{
-    width: 50px;
-    height: 50px;
-    background-color: bisque;
-    text-align: center;
-    color: black;
-     flex-wrap: wrap;
+.box-4{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
 }
 
-.wrap-reverse h2{
-    margin: 2rem;
+.box-5{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1rem;
 }
 
+.box-6{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem;
+}
+
+.box-7{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin: 1rem;
+}
+
+
+.box-8{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem;
+}
+
+.box-9{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    margin: 1rem;
+}
+
+.box-10{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 1rem;
+}
+
+.box-11{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 1rem;
+}
+
+.box-12{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    margin: 1rem;
+}
+
+.box-13{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1rem;
+}
